@@ -4,6 +4,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/nullstack-fontawesome)
 ![npm peer dependency version](https://img.shields.io/npm/dependency-version/nullstack-fontawesome/peer/nullstack)
 ![npm](https://img.shields.io/npm/dm/nullstack-fontawesome)
+![GitHub Repo stars](https://img.shields.io/github/stars/natanfeitosa/nullstack-fontawesome)
 
 > Font Awesome Nullstack component
 
