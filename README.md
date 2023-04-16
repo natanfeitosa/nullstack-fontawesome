@@ -1,5 +1,10 @@
 # nullstack-fontawesome
 
+![npm](https://img.shields.io/npm/v/nullstack-fontawesome)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/nullstack-fontawesome)
+![npm peer dependency version](https://img.shields.io/npm/dependency-version/nullstack-fontawesome/peer/nullstack)
+![npm](https://img.shields.io/npm/dm/nullstack-fontawesome)
+
 > Font Awesome Nullstack component
 
 ## Install
