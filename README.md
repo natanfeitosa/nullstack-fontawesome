@@ -50,7 +50,7 @@ export default function Examples() {
       <FaLayers fixed-width class="fa-4x">
         {/* You can omit the prefix and just use icon name as string, 'fas' will be added automatically */}
         <FaIcon icon="archive" />
-        <FaLayersText class="red8" transform="down-3 shrink-14" value="SECRET" />
+        <FaLayersText class="text-red-800" transform="down-3 shrink-14" value="SECRET" />
       </FaLayers>
     </>
   )
