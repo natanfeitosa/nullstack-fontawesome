@@ -1,0 +1,54 @@
+{
+  "name": "nullstack-fontawesome",
+  "version": "0.1.0",
+  "description": "Font Awesome Nullstack component",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "dist/**/*",
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx,njs,nts}\" --fix",
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Natan Feitosa <natansantosapps@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natanfeitosa/nullstack-fontawesome.git"
+  },
+  "keywords": [
+    "nullstack",
+    "fontawesome",
+    "icons",
+    "typescript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natanfeitosa/nullstack-fontawesome/issues"
+  },
+  "homepage": "https://github.com/natanfeitosa/nullstack-fontawesome#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "eslint-plugin-nullstack": "^0.0.26",
+    "nullstack": "^0.17.4",
+    "rollup": "^3.20.2",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "classnames": "^2.3.2"
+  },
+  "peerDependencies": {
+    "nullstack": "^0.17.4"
+  }
+}

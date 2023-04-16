@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react",
+    "jsxFactory": "Nullstack.element",
+    "jsxFragmentFactory": "Nullstack.fragment",
+    // "jsxImportSource": "",                            /* Specify module specifier used to import the JSX factory functions when using 'jsx: react-jsx*'. */
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    "dist"
+  ]
+}
